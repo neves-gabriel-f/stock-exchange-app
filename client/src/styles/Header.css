@@ -1,0 +1,104 @@
+header, .header-wrapper, .header-logo-wrapper, .header-form-wrapper{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    color: var(--text_color);
+    
+}
+
+header {
+    justify-content: center;
+    user-select: none;
+    -webkit-user-select: none;
+    width: 100%;
+    margin: 0rem auto;
+    background-color: var(--background_color);
+    border-bottom: .0938rem solid var(--border_color);
+    position: fixed;
+    z-index: 3;
+    /* margin-bottom: 1.5rem; */
+}
+.header-wrapper {
+    max-width: 87.5rem; 
+    width: 100%;
+    justify-content: space-between;
+    padding: .75rem .25rem;
+}
+
+.header-logo-wrapper {
+    cursor: pointer;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1.125rem;
+    font-weight: 700;
+    justify-content: center;
+    /* border: solid .125rem red; */
+}
+
+.header-logo {
+    font-weight: 700;
+    color: #7C3AED;
+    margin: 0rem .625rem;
+}
+
+.header-form-wrapper {
+    width: 100%;
+    max-width: 20.9375rem;
+    justify-content: space-between;
+}
+.header-form-wrapper input, .header-form-wrapper button {
+    font-weight: 500;
+    font-size: .875rem;
+    height: 2.25rem;
+    padding: .5rem  .75rem .5rem .875rem;
+    border-radius: .375rem;
+    outline: none;
+    border: solid .0938rem var(--border_color);
+    transition: .1s ease-in-out;  
+}
+.header-form-wrapper input {
+    background-color: var(--background_color);
+    color: var(--text_color);
+}
+
+.header-form-wrapper input::placeholder {
+    font-family: 'Noto Sans', 'sans-setif';
+    font-weight: 500;
+}
+
+.header-form-wrapper input:focus {
+    outline: solid .125rem #7C3AED; 
+    
+}
+.header-form-wrapper button {
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    text-align: center;
+    width: 6rem;
+    height: 2.25rem;
+    border: none;
+    outline: none;
+}
+
+.button {
+    background-color: #7C3AED;
+    border-color: #7C3AED; 
+    color: #fff;
+} 
+
+header .theme-toggle-button, button {
+    height: 2.25rem;
+    width: 2.25rem;
+    cursor: pointer;
+    border: solid .0938rem var(--border_color);
+    border-radius: .375rem;
+    padding: .375rem .5rem;
+}
+header button:hover {
+    background-color: #6D28D9;
+}
+header .theme-toggle-button:hover {
+    background-color: var(--button_background_color);
+}
+
