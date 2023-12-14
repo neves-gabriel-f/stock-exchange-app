@@ -14,7 +14,7 @@
     border-radius: .375rem;
     color: var(--text_color);
     background-color:  var(--card_background_color);
-    transition: ease-out .1s;
+    transition: ease-in-out .2s;
 }
 
 .stock-card-wrapper:hover  {
@@ -87,4 +87,16 @@
 
 .change-down {
     color: #dc2626;
+}
+
+@media screen and (max-width: 25.875rem) {
+    .stock-card-wrapper {
+        max-width: 15rem;
+        max-height: 7.75rem;
+        padding: 1.25rem;
+    }
+    .stock-card-header, .stock-card-stock-name-wrapper, .stock-card-close-and-change-wrapper  {
+        width: 100%;
+    }
+
 }

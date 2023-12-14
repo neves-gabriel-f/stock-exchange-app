@@ -102,3 +102,11 @@ header .theme-toggle-button:hover {
     background-color: var(--button_background_color);
 }
 
+
+@media only screen and (max-width: 550px) {
+    header .header-logo-wrapper p{
+        transition: .2s ease-in-out;
+        display: none;
+    }
+
+}
