@@ -8,7 +8,7 @@
 </div>
 
 <p align="center">
-  <b>React web app made to consult stock quotes, available at the <a href="https://brapi.dev/docs" target="_blank">brapi</a> API.</b>
+  <b>React web app made to consult stock quotes, provided by the the <a href="https://brapi.dev/docs" target="_blank">brapi</a> API.</b>
 </p>
 <p align="center">
     <b>Check it online at <a href="https://brl-tracker.vercel.app/">Vercel</a>
